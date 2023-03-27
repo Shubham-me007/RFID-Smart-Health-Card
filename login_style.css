@@ -1,0 +1,83 @@
+body{
+	background-image: url("digital-technology-doctor.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+	background-attachment: fixed;
+    }
+		
+log {
+ height: 720px;
+ }
+ 
+ .log form {
+ max-width:320px;
+ width:90%;
+ background-color:#f2f2f2;
+ padding:20px;
+ 
+ border-radius:4px;
+ transform:translate(-50%, -50%);
+ position:absolute;
+ top:53%;
+ left:30%;
+ color:#000080;
+ opacity: 0.9;
+ box-shadow:3px 3px 4px rgba(0,0,0,0.2);
+ }
+ 
+ .log .icon {
+ text-align:center;
+ font-size:80px;
+ color:#000000;
+ }
+h1{
+ text-align:center;
+ font-size: 30px;
+ color: #8B4513;
+ padding-bottom: 20px;
+ }
+ 
+ .log form .form-control {
+ background:none;
+ border:none;
+ border-bottom:1px solid #434a52;
+ border-radius:0;
+ box-shadow:none;
+ outline:none;
+ color:inherit;
+ }
+ 
+ .log form .btn-primary {
+ background:#214a80;
+ border:none;
+ border-radius:4px;
+ padding:11px;
+ box-shadow:none;
+ margin-top:26px;
+ text-shadow:none;
+ outline:none;
+ }
+ 
+ .log form .btn-primary:hover, .log form .btn-primary:active {
+ background:#214a80;
+ outline:none;
+ }
+ 
+ .log form .forgot {
+ display:block;
+ text-align:center;
+ font-size:12px;
+ color:#6f7a85;
+ opacity:0.9;
+ text-decoration:none;
+ }
+ 
+ .log form .forgot:hover, .log form .forgot:active {
+ opacity:1;
+ text-decoration:none;
+ }
+ 
+ .log form .btn-primary:active {
+ transform:translateY(1px);
+ }
